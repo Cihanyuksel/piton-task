@@ -10,6 +10,12 @@ module.exports = {
       colors: {
         primary: "#FEC00A",
       },
+      height: {
+        18: "72px",
+      },
+      width: {
+        container: "90%",
+      },
     },
 
     fontFamily: {
@@ -17,13 +23,13 @@ module.exports = {
     },
 
     screens: {
-      "min-3xl": { min: "2560px" },
-      "max-2xl": { max: "1535px" },
-      "max-xl": { max: "1279px" },
-      "max-lg": { max: "1023px" },
-      "max-md": { max: "767px" },
-      "max-sm": { max: "639px" },
-      "max-xs": { max: "376px" },
+      "3xl": { min: "2560px" },
+      "2xl": { max: "1535px" },
+      xl: { max: "1279px" },
+      lg: { max: "1023px" },
+      md: { max: "767px" },
+      sm: { max: "639px" },
+      xs: { max: "376px" },
     },
   },
   plugins: [],

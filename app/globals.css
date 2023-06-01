@@ -11,6 +11,13 @@ section {
     margin: 70px 0;
   }
 }
+
+@media screen and (min-width: 2560px) {
+  section {
+    margin: 200px 0;
+  }
+}
+
 @layer base {
   h1,
   h2,
