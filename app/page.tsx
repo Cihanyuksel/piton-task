@@ -4,6 +4,7 @@ import Portfolio from "@components/Portfolio";
 import OurTeam from "@components/OurTeam";
 import Contact from "@components/Contact";
 import Footer from "@components/Footer";
+import HomeContainer from "../container/HomeContainer";
 
 export default function Home() {
   return (
@@ -11,18 +12,16 @@ export default function Home() {
       <header>
         <HeroSection />
       </header>
-      <section className="w-container mx-auto">
+      <HomeContainer>
         <AboutUs />
-      </section>
-      <section>
-        <Portfolio />
-      </section>
-      <section className="w-container mx-auto">
+      </HomeContainer>
+      <Portfolio />
+      <HomeContainer>
         <OurTeam />
-      </section>
-      <section className="w-container mx-auto">
+      </HomeContainer>
+      <HomeContainer>
         <Contact />
-      </section>
+      </HomeContainer>
       <footer>
         <Footer />
       </footer>

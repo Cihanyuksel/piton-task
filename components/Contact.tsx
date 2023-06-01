@@ -8,7 +8,7 @@ export default function Contact() {
       </div>
       <div className="w-2/3 h-full flex flex-col items-center justify-between xs:gap-y-2 md:w-full 2xl:gap-y-5 3xl:justify-evenly ">
         <h4 className="w-2/5 text-3xl mb-5 text-end self-end xs:text-xl md:text-center lg:w-full 3xl:text-6xl 3xl:mb-16">
-          We'd love to hear from you
+          We&apos;d love to hear from you
         </h4>
         <form className="w-full h-full flex flex-col gap-y-5">
           <input

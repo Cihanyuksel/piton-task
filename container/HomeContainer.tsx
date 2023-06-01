@@ -5,5 +5,5 @@ interface IHomeContainer {
 }
 
 export default function HomeContainer({ children }: IHomeContainer) {
-  return <section className="w-[95%] mx-auto ">{children}</section>;
+  return <section className="w-container mx-auto">{children}</section>;
 }
