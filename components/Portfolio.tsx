@@ -2,7 +2,7 @@ import HomeContainer from "../container/HomeContainer";
 
 export default function Portfolio() {
   return (
-    <div className="bg-black">
+    <section className="bg-black">
       <div className="w-container flex justify-between mx-auto py-8 3xl:py-16">
         <div className="flex flex-col gap-y-2">
           <p className="text-primary text-6xl 3xl:text-9xl lg:text-4xl md:text-2xl sm:text-xl">350+</p>
@@ -24,6 +24,6 @@ export default function Portfolio() {
           <p className="text-white text-lg md:text-base sm:text-xs">Revenue Generated</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
