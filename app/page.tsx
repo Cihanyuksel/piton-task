@@ -4,14 +4,12 @@ import Portfolio from "@components/Portfolio";
 import OurTeam from "@components/OurTeam";
 import Contact from "@components/Contact";
 import Footer from "@components/Footer";
-import HomeContainer from "../container/HomeContainer";
+import HomeContainer from "@container/HomeContainer";
 
 export default function Home() {
   return (
     <main>
-      <header>
-        <HeroSection />
-      </header>
+      <HeroSection />
       <HomeContainer>
         <AboutUs />
       </HomeContainer>
@@ -22,9 +20,7 @@ export default function Home() {
       <HomeContainer>
         <Contact />
       </HomeContainer>
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </main>
   );
 }

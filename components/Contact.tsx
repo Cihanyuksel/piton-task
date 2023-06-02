@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Contact() {
   return (
-    <div className="h-[500px] flex gap-x-10 md:flex-col md:items-center 3xl:justify-between 3xl:h-[1000px]">
+    <footer className="h-[500px] flex gap-x-10 md:flex-col md:items-center 3xl:justify-between 3xl:h-[1000px]">
       <div className="w-1/3 h-[500px] md:hidden md:w-1/2 3xl:h-[1000px] relative">
         <Image src="/static/form-image.png" alt="form image" fill style={{ objectFit: "cover" }} />
       </div>
@@ -23,7 +23,7 @@ export default function Contact() {
           />
           <input
             type="text"
-            className="h-1/6 border-2 border-black opacity-60 px-5 outline-none placeholder-black 3xl:placeholder:text-4xl"
+            className="h-1/6 border-2 border-black opacity-60 px-5 outline-none placeholder-black xs:h-10 3xl:placeholder:text-4xl"
             placeholder="Website URL*"
           />
           <textarea
@@ -35,6 +35,6 @@ export default function Contact() {
           </button>
         </form>
       </div>
-    </div>
+    </footer>
   );
 }

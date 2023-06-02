@@ -9,7 +9,7 @@ export default function AboutUs() {
         for long-term success.We believe that the human dimensions essential to start any successful project and that
         this is where splendid emotional relationships between the company and people are born.
       </p>
-      <Image src="/static/mid-image.png" alt="mid image" width={1200} height={300} />
+      <Image src="/static/mid-image.png" alt="about us image" width={2560} height={300} />
     </div>
   );
 }
